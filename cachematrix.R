@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## This function creates a special "matrix" object
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -12,11 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
         get <- function() x
         setInverse <- function(inverse) inv <<- inverse
         getInverse <- function() inv
-        list(set = set,
-             get = get,
-             setInverse = setInverse,
-             getInverse = getInverse)
-
+        list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
 
 
